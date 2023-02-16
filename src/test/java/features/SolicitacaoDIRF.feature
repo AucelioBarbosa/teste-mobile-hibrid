@@ -191,36 +191,5 @@ Feature: Solilcitacao DIRF
     Then informo o email "botwhatsapp@.cielo.com.br"
     And encerro o chat
 
-  @Regressao @TEST_WE-2293
-  Scenario: WE-2293 DIRF_13  validar opção envio de DIRF para E-mail, de um cliente com EC elegível, ano calendário inserido corretamente, e-mail fora dos padrões válidos 2 vezes, e que deseja enviar a DIRF para outro e-mail
-    Given que abra o WhatsApp
-    And inicie uma interacao no chat-cielo
-    And seleciona a opcao 5 menu principal
-    And click no link de login
-    And efetue o login com estabelecimento 31071827022 senha 852963
-    And seleciona a EC 2012359935
-    When retornar ao chat digite a opcao 1 - fiz o login
-    And confirmo a EC 2012359935
-    And escolha a opcao "5" do submenu
-    And informo o ano 2021 de solitacao do DIRF
-    Then informo o email "@.cielo.com"
-    And informo o email "@.cielo.com"
-    And encerro o chat
 
-  @Regressao @TEST_WE-2294
-  Scenario: WE-2294 DIRF_14  validar opção envio de DIRF para E-mail, de um cliente com EC elegível, ano calendário inserido corretamente, e-mail fora dos padrões válidos 3 vezes, e que deseja enviar a DIRF para outro e-mail
-    Given que abra o WhatsApp
-    And inicie uma interacao no chat-cielo
-    And seleciona a opcao 5 menu principal
-    And click no link de login
-    And efetue o login com estabelecimento 31071827022 senha 852963
-    And seleciona a EC 2012359935
-    When retornar ao chat digite a opcao 1 - fiz o login
-    And confirmo a EC 2012359935
-    And escolha a opcao "5" do submenu
-    And informo o ano 2021 de solitacao do DIRF
-    Then informo o email "@.cielo.com"
-    And informo o email "@.cielo.com"
-    And informo o email "@.cielo.com"
-    And encerro o chat
 

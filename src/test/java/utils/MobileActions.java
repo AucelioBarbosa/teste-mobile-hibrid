@@ -18,8 +18,6 @@ public class MobileActions extends StartDriver {
         waitImplicitly(seconds);
     }
 
-
-
     public static String getText(By element, int seconds) {
         String text = getDriver().findElement(element).getText();
         waitImplicitly(seconds);

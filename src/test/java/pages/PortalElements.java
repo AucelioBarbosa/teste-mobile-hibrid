@@ -19,7 +19,6 @@ public class PortalElements extends StartDriver {
     public static String getMsgPaginaAutenticacao() {
         return msgPaginaAutenticacao;
     }
-
     public static void setMsgPaginaAutenticacao(String msgH1, String msgP) {
         PortalElements.msgPaginaAutenticacao = (msgH1 + msgP);
     }

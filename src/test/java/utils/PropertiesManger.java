@@ -11,8 +11,6 @@ public class PropertiesManger {
     public PropertiesManger(String filePath) {
         this.filePath = filePath;
     }
-
-
     public Properties getProps() {
         try {
             File file = new File(this.filePath);
@@ -22,7 +20,6 @@ public class PropertiesManger {
         } catch (Exception var3) {
             System.out.println("arquivo não encontrado");
         }
-
         return this.props;
     }
 }

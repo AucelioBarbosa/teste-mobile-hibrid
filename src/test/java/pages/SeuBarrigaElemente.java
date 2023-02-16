@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import utils.StartDriver;
 
 public class SeuBarrigaElemente extends StartDriver {
-
     public static By app = By.xpath("//*[@content-desc='CtAppium']");
     public static By CelularHibrid = By.xpath("//*[@text='SeuBarriga Híbrido']");
     public static By campoEmail = By.xpath("//*[@resource-id='email']");

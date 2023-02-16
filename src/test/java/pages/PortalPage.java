@@ -9,7 +9,6 @@ public class PortalPage extends PortalElements {
 
 
     public void selecionarLinkPortal() throws InterruptedException {
-
         MobileActions.clickOnElement(By.xpath("//android.view.View[@content-desc]"), 3);
         MobileActions.waitImplicitly(10);
         trocaDeContexto("Web");

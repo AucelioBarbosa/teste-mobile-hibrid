@@ -27,7 +27,6 @@ public class StartDriver {
     private static void createTestObjectDriver() {
 
         try {
-            //enviamos as definicioes antes para o Appium, agora para a nuvem.
             driver = new AndroidDriver<MobileElement>(new URL("http://labmobilecielo.keeggo.com:443/wd/hub"), DeviceMap.deviceModel("A10"));
 //            driver = new AndroidDriver<MobileElement>(new URL("127.0.0.1:4723/wd/hub"), DeviceMap.deviceModel("A10"));
         } catch (MalformedURLException e) {

@@ -14,7 +14,6 @@ public class CleanStartApp extends StartDriver {
             atualizacaoDeSoftware();
         } while (agenteUFTAberto() && cieloSTG() && pesquisaAPPAberto() && cieloUAT() && atualizacaoDeSoftware());
     }
-
     public static boolean agenteUFTAberto() {
 
         try {

@@ -23,7 +23,6 @@ public class SeuBarrigaActivity extends SeuBarrigaElemente {
 
 
     public static void menu(String opcao) {
-
         switch (opcao) {
             case "Home":
                 MobileActions.clickOnElement(menuHome,3);

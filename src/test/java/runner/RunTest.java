@@ -16,9 +16,7 @@ import org.junit.runner.RunWith;
                 "rerun:target/cucumber-reports/rerun.txt",
                 "junit:target/cukes/junit.xml",
         }
+
 )
 public class RunTest {
-
-
-
 }

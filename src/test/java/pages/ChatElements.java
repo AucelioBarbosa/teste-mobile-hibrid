@@ -20,7 +20,6 @@ public class ChatElements extends StartDriver {
     public static By limparConversa = By.xpath("//android.widget.TextView[@text='Limpar conversa']");
     public static By btnLimparConversa = By.xpath("//android.widget.Button[@resource-id='android:id/button1']");
     public static By btnWhatsHome = By.xpath("//android.widget.ImageView[@resource-id='com.whatsapp:id/whatsapp_toolbar_home']");
-
     public static By txBox1 = By.xpath("//android.view.ViewGroup[1]/android.widget.LinearLayout[1]//android.widget.FrameLayout/android.widget.TextView");
     public static By txBox2 = By.xpath("//android.view.ViewGroup[2]/android.widget.LinearLayout[1]//android.widget.FrameLayout/android.widget.TextView");
     public static By txBox3 = By.xpath("//android.view.ViewGroup[3]/android.widget.LinearLayout[1]//android.widget.FrameLayout/android.widget.TextView");

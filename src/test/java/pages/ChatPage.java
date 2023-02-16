@@ -146,6 +146,7 @@ public class ChatPage extends ChatElements {
             default:
                 System.out.println("Opção" + opcao + "não encontrada no menu principal");
                 break;
+
         }
 
     }

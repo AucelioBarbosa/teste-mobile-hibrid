@@ -11,7 +11,6 @@ public class Hook {
     public void init() {
 
     }
-
     @After
     public void clean() {
 
